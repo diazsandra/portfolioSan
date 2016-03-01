@@ -1,0 +1,162 @@
+/*SERVIVICIOS*/
+#servicios {
+	padding: 5%;
+}
+
+hr {
+	width: 5%;
+	height: .2em;
+	background-color: #F04B26;
+}
+
+#servicios h3 {
+	font-size: 1.2em;
+	font-weight: 600;
+
+}
+
+.col-3 {
+	width: 20%;
+	font-size: 1em;
+	display: inline-block;
+	margin: 2%;
+	text-decoration: none;
+}
+
+.black {
+	color: black;
+}
+
+#servicios a:hover {
+	text-decoration: none;
+}
+
+/* IMAGES*/
+ #images img {
+	width: 100%;
+}
+
+#bgj {
+	background-image: url("../img/portfolio/1.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 250px;
+	background-size: cover;
+}
+#bgj1 {
+	background-image: url("../img/portfolio/2.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 250px;
+	background-size: cover;
+}
+
+#bgj2 {
+	background-image: url("../img/portfolio/3.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 250px;
+	background-size: cover;
+}
+
+#bgj3 {
+	background-image: url("../img/portfolio/4.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 250px;
+	background-size: cover;
+}
+
+#bgj4 {
+	background-image: url("../img/portfolio/5.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 250px;
+	background-size: cover;
+}
+
+#bgj5 {
+	background-image: url("../img/portfolio/6.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 250px;
+	background-size: cover;
+}
+.pdg-14 {
+	padding-right: -5%;
+	padding-left: -5%
+}
+
+
+/* GITHUB */
+
+#git {
+	background-color: #263238;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	padding: 3%;
+}
+
+.button {
+	color: black;
+	display:inline-block;
+	font-size: .5em;
+	margin:1%;
+	padding:1% 0;
+	text-align:center;
+	width:10%;
+	text-decoration: none;
+}
+ 
+.button span {
+	margin-right:2%;
+}
+
+.button.white {
+	background-color: white;
+	box-shadow: 0 .2em 0 #F8F9F9;  
+	border-radius: 50em;
+}
+
+.button:hover {
+	background-color: #F04B26;
+	color: white;
+	box-shadow: 0 .2em 0 #EDBB99;
+	padding: 1%;
+	width: 12%;
+	text-decoration: none;
+}
+
+
+/* FOOT */
+
+footer {
+	padding: 5%
+}
+
+footer p {
+	padding: 0 15%;
+}
+
+footer img {
+	width: 8%;
+	text-align: center;
+}
+
+.mglx {
+	margin-left: -5%;
+}
+
+.mgrx {
+	margin-left: 5%;
+}
+
+.orange {
+	color: #F04B26;
+}
+
+footer a:hover {
+	text-decoration: none;
+}
+
