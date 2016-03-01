@@ -1,4 +1,5 @@
 /*SERVIVICIOS*/
+
 #servicios {
 	padding: 5%;
 }
@@ -160,3 +161,19 @@ footer a:hover {
 	text-decoration: none;
 }
 
+#sobremi {
+	background-color: rgba(240, 75, 38, 0.8);
+	padding: 3%;
+	height: auto;
+	color: white
+}
+
+#sobremi hr {
+	width: 5%;
+	height: .2em;
+	background-color: white;
+}
+
+.c {
+	font-weight: lighter;
+}
