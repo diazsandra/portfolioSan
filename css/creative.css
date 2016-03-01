@@ -66,6 +66,7 @@ hr {
 	background-position: right;
 	height: 250px;
 	background-size: cover;
+
 }
 
 #bgj4 {
@@ -82,11 +83,29 @@ hr {
 	background-position: right;
 	height: 250px;
 	background-size: cover;
-}
+	}
+
 .pdg-14 {
 	padding-right: -5%;
 	padding-left: -5%
 }
+
+
+.orangediv {
+	text-align: center;
+	padding: 10%;
+	background-color: rgba(240, 75, 38, 0.8);
+	color: white;
+
+}
+
+@media all and (min-width: 600px) {
+    .orangediv {
+        visibility: hidden;
+    }
+}
+
+
 
 
 /* GITHUB */
@@ -128,6 +147,14 @@ hr {
 	width: 12%;
 	text-decoration: none;
 }
+
+@media all and (max-width: 600px) {
+    .bttsmall {
+        font-size: 8px;
+      	width: auto;
+    }
+}
+
 
 
 /* FOOT */
@@ -174,6 +201,3 @@ footer a:hover {
 	background-color: white;
 }
 
-.c {
-	font-weight: lighter;
-}
